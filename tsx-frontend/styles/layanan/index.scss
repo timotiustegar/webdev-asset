@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h5 {
+  margin-bottom: 0 !important;
+  font-weight: 600 !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+@import '../shared.scss';
+
+.primaryColor {
+  color: $primaryColor;
+}
+
+.secondaryColor {
+  color: $secondaryColor;
+}
+.primaryButton{
+  background-color: #1F2B52 !important; 
+  border-radius: 10px; 
+  color: #fff; 
+  border-color: #1F2B52 !important;
+}
+.secondaryButton{
+  background-color: #fff !important; 
+  border-radius: 10px; 
+  color: #1F2B52 !important; 
+  border-color: #fff !important;
+}
+@media only screen and (max-width: $xsm) {
+  .button {
+    font-size: 12px !important;
+  }
+  .heading1{
+    font-size: 28px;
+  }
+  .heading2{
+  font-size: 22px;
+  }
+  .paragraf{
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: $xsm) and (max-width: $md) {
+  .button {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (min-width: $md) and (max-width: $xxl) {
+  .button {
+    font-size: 22px !important;
+  }
+}
+@media only screen and (min-width: $xsm) and (max-width: $lg) {
+  .heading1{
+    font-size: 53px;
+  }
+  .heading2{
+    font-size: 27px;
+  }
+  .paragraf{
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: $lg) and (max-width: $xxl) {
+  .heading1{
+    font-size: 62px;
+  }
+  .heading2{
+    font-size: 32px;
+  }
+  .paragraf{
+    font-size: 24px;
+  }
+}
+.bg-zeal {
+  background-color: #1F2B52;
+}
